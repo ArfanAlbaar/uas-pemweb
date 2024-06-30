@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="assets/img/icon.png" />
+    <title>Wonderful Indonesia</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#culture">Culture</a></li>
+          <li><a href="#attractions">Tourist Attractions</a></li>
+          <li><a href="#hotels">Hotels</a></li>
+          <li><a href="#transactions">Transactions</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="hero">
+      <h1>Indonesian Tourism</h1>
+      <p>"Discover the beauty, culture, and adventures of Indonesia."</p>
+    </div>
+
+    <main>
+      <section id="culture">
+        <h2>Kebudayaan Indonesia</h2>
+
+        <ul class="content-grid">
+          <li>
+            <img src="assets/img/tari-kecak.webp" alt="Tari Kecak" />
+            <p>Tarian Tradisional: Tari Kecak, Tari Saman, Tari Piring</p>
+          </li>
+          <li>
+            <img src="assets/img/ngaben.jpg" alt="Ngaben" />
+            <p>Upacara Adat: Ngaben, Rambu Solo, Sekaten</p>
+          </li>
+          <li>
+            <img src="assets/img/wayang.jpeg" alt="Batik" />
+            <p>Tradisi Unik: Batik, Wayang Kulit, Gamelan</p>
+          </li>
+        </ul>
+      </section>
+
+      <section id="attractions">
+        <h2>Tempat Wisata Terbaik di Indonesia</h2>
+
+        <ul class="content-grid">
+          <li>
+            <img src="assets/img/bali.jpg" alt="Bali" />
+            <p>Bali: Pantai, budaya, dan kehidupan malam</p>
+          </li>
+          <li>
+            <img src="assets/img/borobudur.jpeg" alt="Borobudur" />
+            <p>Yogyakarta: Candi Borobudur, Keraton, Malioboro</p>
+          </li>
+          <li>
+            <img src="assets/img/raja-ampat.jpg" alt="Raja Ampat" />
+            <p>Raja Ampat: Keindahan bawah laut</p>
+          </li>
+          <li>
+            <img src="assets/img/lombok.jpg" alt="Lombok" />
+            <p>Lombok: Pantai Kuta, Gunung Rinjani</p>
+          </li>
+          <li>
+            <img src="assets/img/komodo.jpeg" alt="Komodo" />
+            <p>Komodo: Taman Nasional Komodo</p>
+          </li>
+          <li>
+            <img src="assets/img//toba.jpeg" alt="Komodo" />
+            <p>Danau Toba: Danau Alami Besar</p>
+          </li>
+        </ul>
+      </section>
+
+      <section id="hotels">
+        <h2>Daftar Hotel Favorit</h2>
+
+        <ul class="content-grid">
+          <li>
+            <img
+              src="assets/img/hotel1.webp"
+              alt="Hotel Indonesia Kempinski Jakarta"
+            />
+            <p>
+              Hotel Indonesia Kempinski Jakarta: Jl. M.H. Thamrin No.1, Menteng,
+              Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta
+              10310
+            </p>
+            <ul>
+              <li>Fasilitas: Kolam renang, spa, gym, restoran</li>
+              <li>Harga: Rp 1.000.000/malam</li>
+              <li>Informasi: Hotel bintang 5 dengan pelayanan prima.</li>
+            </ul>
+          </li>
+          <li>
+            <img
+              src="assets/img/hotel2.webp"
+              alt=" Wyndham Tamansari Jivva Resort Bali"
+            />
+            <p>
+              Wyndham Tamansari Jivva Resort Bali: Pantai Lepang, Jl. Subak
+              Lepang No.16, Takmung, Kec. Banjarangkan, Kabupaten Klungkung,
+              Bali 80752
+            </p>
+            <ul>
+              <li>Fasilitas: Pantai pribadi, restoran, layanan kamar 24 jam</li>
+              <li>Harga: Rp 2.000.000/malam</li>
+              <li>
+                Informasi: Hotel mewah dengan pemandangan laut yang indah.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <img src="assets/img/hotel3.webp" alt="Hotel Tentrem Yogyakarta" />
+            <p>
+              Hotel Tentrem Yogyakarta: Jl. P. Mangkubumi No.72A,
+              Cokrodiningratan, Kec. Jetis, Kota Yogyakarta, Daerah Istimewa
+              Yogyakarta 55233
+            </p>
+            <ul>
+              <li>Fasilitas: Kolam renang, bar, restoran, pusat kebugaran</li>
+              <li>Harga: Rp 1.500.000/malam</li>
+              <li>Informasi: Hotel modern dengan akses mudah ke pusat kota.</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <section id="transactions">
+        <h2>Transaksi</h2>
+        <form id="transaksi-form">
+          <label for="nama">Nama:</label>
+          <input type="text" id="nama" name="nama" required /><br />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required /><br />
+
+          <label for="hotel">Pilih Hotel:</label>
+          <select id="hotel" name="hotel">
+            <option value="Hotel Indonesia Kempinski Jakarta">
+              Hotel Indonesia Kempinski Jakarta
+            </option>
+            <option value="Wyndham Tamansari Jivva Resort Bali">
+              Wyndham Tamansari Jivva Resort Bali
+            </option>
+            <option value="Hotel Tentrem Yogyakarta">
+              Hotel Tentrem Yogyakarta
+            </option>
+            <br />
+          </select>
+
+          <button type="submit">Kirim</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Indonesian Tourism</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
